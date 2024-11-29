@@ -1,0 +1,120 @@
+/* Stile base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Bianco con un tocco di blu */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Blu scuro elegante */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Sezioni */
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Servizi */
+.service {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.service img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #003366;
+}
+
+.service p {
+    color: #555;
+}
+
+.service ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.service ul li {
+    padding-left: 10px;
+    position: relative;
+}
+
+.service ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #003366;
+}
+
+/* Partner */
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
